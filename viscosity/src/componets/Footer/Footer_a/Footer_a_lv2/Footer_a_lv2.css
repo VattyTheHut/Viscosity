@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+/* Colors */
+/* * {
+  
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+} */
+
+.footer-aa {
+  font-family: Raleway, sans-serif;
+  background-color: #fff;
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  background-color: #999;
+}
+.footer-aa .copyright {
+  width: 50%;
+  float: left;
+}
+@media (max-width: 600px) {
+  footer .copyright {
+    width: 100%;
+  }
+}
+.footer-aa .copyright p {
+  padding-left: 10%;
+  color: white;
+  font-size: 0.7em;
+  line-height: 70px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+@media (max-width: 600px) {
+  .footer-b .copyright p {
+    text-align: center;
+    padding: 0;
+  }
+}
+.footer-aa .social {
+  width: 50%;
+  float: right;
+}
+@media (max-width: 600px) {
+  .footer-b .social {
+    width: 100%;
+  }
+}
+.footer-aa .social a {
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+.footer-aa .social a:hover {
+  background-color: #222;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+.footer-aa .linked {
+  background-color: #1E83AE;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.footer-aa .face {
+  background-color: #3D5B94;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.footer-aa .tweet {
+  background-color: #3DACDD;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.footer-aa .support {
+  background-color: #6dcd9a;
+  font-size: 0.8em;
+  width: 40%;
+}
