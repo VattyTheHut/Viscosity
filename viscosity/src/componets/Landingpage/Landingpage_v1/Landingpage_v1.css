@@ -1,0 +1,27 @@
+#V1showcase{
+    background-image: url("http://s3.storage.akamai.coub.com/get/b149/p/coub/simple/cw_timeline_pic/da4df7f3732/ca80816a59ffa7296858a/big_1484457631_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    line-height: 1.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+
+
+#V1showcase h1{
+    font-size: 45px;
+}
+
+#V1showcase p{
+    font-size: 20px;
+}
+
+#V1showcase .V1button{
+    font-size: 18px;
+    color: #833B4D;
+}

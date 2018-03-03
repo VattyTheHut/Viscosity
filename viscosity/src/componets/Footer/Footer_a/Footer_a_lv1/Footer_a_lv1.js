@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import '/Users/vatekehcorlon/viscosity_va0.1/viscosity/src/componets/Footer/Footer_a/Footer_a_lv1/Footer_a_lv1.css';
+import './Footer_a_lv1.css';
+
 
 class Footer_a_lv1 extends Component {
   render() {
