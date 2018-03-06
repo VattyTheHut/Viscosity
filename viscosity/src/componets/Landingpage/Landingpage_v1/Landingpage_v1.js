@@ -5,7 +5,7 @@ class Landingpage_v1 extends Component {
   render() {
     return (
       <div className="Landingpage_v1">
-        <div class="Landingpage_v1">
+        <div className="Landingpage_v1">
             
             <header id="V1showcase">
                 <h1>Earl Sweatshirt</h1>
@@ -17,6 +17,11 @@ class Landingpage_v1 extends Component {
 
                 <a href="#" className="V1button">Read More</a>
             </header>
+
+
+            <section>
+              <p>sndskdn skdnadnksmd akdmn dmosmr vf fmnbdoxkdvsn dksn v sdcv sncv s cjk kfnjv nkv nsdv j skn sdm</p>
+            </section>
 
         </div>
       </div>

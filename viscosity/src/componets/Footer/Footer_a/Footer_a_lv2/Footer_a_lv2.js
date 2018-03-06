@@ -5,7 +5,7 @@ class Footer_a_lv2 extends Component {
   render() {
     return (
       <div className="Footer_a_lv2">
-          <div class="footer-aa">
+          <div className="footer-aa">
                 <div className="copyright">
                     <p>&copy 2013 - Organisation</p>
                 </div>

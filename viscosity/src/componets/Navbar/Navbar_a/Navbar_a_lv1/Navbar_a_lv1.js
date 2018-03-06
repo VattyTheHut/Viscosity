@@ -6,23 +6,23 @@ class Navbar_a_lv1 extends Component {
     return (
       <div className="Navbar_a_lv1">
         
-        <div class="bar-nav">
-            <div class="list-left"><span class="logo-color">.efontaine</span></div>
+        <div className="bar-nav">
+            <div className="list-left"><span class="logo-color">.efontaine</span></div>
                     
-                <div class="list-right">
+                <div className="list-right">
                     <ul>
-                        <li><a href="#">HOME</a></li>
+                        <li><a>HOME</a></li>
                         <li><a>ABOUT US</a></li>
 
                         <li>
-                            <div class="dropdown">
-                            <button class="dropbtn">Dropdown 
-                              <i class="fa fa-caret-down"></i>
+                            <div className="dropdown">
+                            <button className="dropbtn">Dropdown 
+                              <i className="fa fa-caret-down"></i>
                             </button>
-                            <div class="dropdown-content">
-                              <a href="#">Link 1</a>
-                              <a href="#">Link 2</a>
-                              <a href="#">Link 3</a>
+                            <div className="dropdown-content">
+                              <a>Link 1</a>
+                              <a>Link 2</a>
+                              <a>Link 3</a>
                             </div>
                           </div> 
                         </li>
