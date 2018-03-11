@@ -5,6 +5,9 @@ class Splitscreenslider_v2 extends Component {
 
 
     constructor(){
+
+        super();
+
         const left = document.querySelector(".left");
         const right = document.querySelector(".right");
         const container = document.querySelector(".container");

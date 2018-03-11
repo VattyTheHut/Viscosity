@@ -14,13 +14,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      {/* <Navbar_a_lv1 /> */}
-      {/* <Parallax_a />
-      <Modal_v1 /> */}
+      <Navbar_a_lv1 />
+       <Parallax_a />
+      
 
-      <Splitscreenslider_v2 />
 
-      {/* <Footer_a_lv2 /> */}
+      <Footer_a_lv2/>
           
       </div>
     );
