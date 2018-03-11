@@ -2,11 +2,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const path = require('path')
 const nodemailer = require('nodemailer');
-var port = 4000;
+var port = 5001;
 var app = express();
 
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('assets'))
 app.use(cors())
 app.use(bodyParser.json())
