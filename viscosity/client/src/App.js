@@ -17,8 +17,6 @@ class App extends Component {
       <Navbar_a_lv1 />
        <Parallax_a />
       
-
-
       <Footer_a_lv2/>
           
       </div>
