@@ -11,10 +11,10 @@ class Footer_a_lv2 extends Component {
                 </div>
 
                 <div className="social">
-                    <a href="#" class="support">Contact Us</a>
-                    <a href="#" class="face">f</a>
-                    <a href="#" class="tweet">t</a>
-                    <a href="#" class="linked">in</a>
+                    <a href="#" className="support">Contact Us</a>
+                    <a href="https://www.facebook.com/" className="face">f</a>
+                    <a href="https://www.twitter.com/" className="tweet">t</a>
+                    <a href="https://www.Lindin.com/" className="linked">in</a>
                 </div>
             </div> 
       </div>

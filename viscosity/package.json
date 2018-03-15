@@ -6,11 +6,13 @@
     "body-parser": "^1.18.2",
     "concurrently": "^3.5.1",
     "cors": "^2.8.4",
+    "ejs": "^2.5.7",
     "express": "^4.16.3",
     "massive": "^4.7.1",
+    "nexmo": "^2.2.0",
     "nodemailer": "^4.6.2",
-    "nodemon": "^1.17.1",
     "path": "^0.12.7",
+    "paypal-rest-sdk": "^1.8.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0",
@@ -27,7 +29,9 @@
   "proxy": "https://localhost:5007",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "Server.js",
-  "devDependencies": {"nodemon": "^1.14.6"},
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VattyTheHut/Viscosity.git"

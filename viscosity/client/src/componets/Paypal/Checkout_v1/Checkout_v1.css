@@ -1,0 +1,182 @@
+.Checkout_v1  {
+	
+
+	background-color: #f6f9f8;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: 100vh;
+
+}
+
+.Checkout_v1 a {
+	color: #0e7aea;
+	text-decoration: none;
+}
+
+.Checkout_v1 h6 {
+	color: #9aa3ab;
+	font-weight: 300;
+	line-height: 15px;
+}
+
+.Checkout_v1 h5 {
+	color: #99a1aa;
+	font-weight: 300;
+}
+
+.Checkout_v1 h4 {
+	font-weight: 300;
+	font-size: 13px;
+	color: #97a2ad
+}
+
+.Checkout_v1 h3 {
+	color: #58636a;
+	font-weight: 500;
+}
+
+.Checkout_v1 .container {
+	position: absolute;
+	top: 8%;
+    right: 25%;
+	width: 50%;
+	height: 40%;
+	min-width: 636px;
+	min-height: 456px;
+	margin: auto;
+	margin-top: 10%;
+	overflow: hidden;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow: 0px 5px 21px 0px rgba(128,128,128,0.2);
+	-moz-box-shadow: 0px 5px 21px 0px rgba(128,128,128,0.2);
+	box-shadow: 0px 5px 21px 0px rgba(128,128,128,0.2);
+}
+
+.Checkout_v1 .left {
+	background-color: #1882ef;
+	width: 39%;
+	height: 457px;
+	border-radius: 5px 0 0 5px;
+	float: left;
+	color: #ffffff;
+}
+
+.Checkout_v1 .info-box {
+	margin-top: 35px;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+.Checkout_v1  .receipt {
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 26px;
+	padding-top: 10px;
+  padding-bottom: 15px;
+	border-bottom: 1px solid #3895f4;
+	height: 15%;
+}
+
+.Checkout_v1  .receipt > span {
+	font-weight: 500;
+	font-size: 21px;
+}
+
+.Checkout_v1  .entry {
+	border-bottom: 1px solid #3895f4;
+	height: 15%;
+	overflow: hidden;
+	padding-top: 15px;
+}
+
+.Checkout_v1 .entry > p {
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 26px;
+	margin-top: 0px !important;
+	float: left;
+}
+
+.Checkout_v1 .entry > i {
+	margin-top: 4px;
+	margin-right: 13px;
+	float: left;
+	color: #b4d8fc;
+}
+
+.Checkout_v1 span {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.Checkout_v1  .entry:last-child {
+	border-bottom: none;
+}
+
+.Checkout_v1 .right {
+	background-color: #fefefe;
+	width: 61%;
+	height: 100%;
+	float: left;
+	border-radius: 0 5px 5px 0;
+}
+
+.Checkout_v1 .content {
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.Checkout_v1 .header {
+	overflow: hidden;
+	border-bottom: 1px solid #d7e2e7;
+	height: 50px;
+}
+
+.Checkout_v1 .header > img {
+	width: 100px;
+	float: left;
+}
+
+.Checkout_v1 .header > h4 {
+	text-align: right;
+	margin-top: 10px;
+}
+
+.Checkout_v1 .main {
+	margin-top: 35px;
+}
+
+.Checkout_v1 .message {
+	margin-top: 40px;
+}
+
+.Checkout_v1 .message > p {
+	font-weight: 300;
+	font-size: 15px;
+	color: #7a838d;
+	line-height: 30px;
+}
+
+.Checkout_v1 .message > h6 {
+	margin-top: 10px;
+}
+
+.Checkout_v1 .footer {
+	overflow: hidden;
+	border-top: 1px solid #d7e2e7;
+	margin-top: 40px;
+	padding-top: 30px;
+}
+
+.Checkout_v1 .footer > a {
+	font-size: 13px;
+	font-weight: 500;
+	float: left;
+}
+
+.Checkout_v1 .footer > h6 {
+	color: #7a838d;
+	text-align: right;
+	margin-top: 0px !important;
+}
