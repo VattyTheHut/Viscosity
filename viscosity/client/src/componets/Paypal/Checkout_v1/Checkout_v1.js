@@ -5,65 +5,65 @@ import Square_bv1 from "/Users/vatekehcorlon/viscosity_va0.1/viscosity/client/sr
 class Checkout_v1 extends Component {
 
 
-    constructor(){
-        super()
+    // constructor(){
+    //     super()
 
-        // function month(){
-        //     let mouth = ""
-        //     switch (new Date().getmonth()) {
-        //         case 1:
-        //             month = "Jan";
-        //             break;
-        //         case 2:
-        //             month = "Feb";
-        //             break;
-        //         case 3:
-        //             month = "Mar";
-        //             break;
-        //         case 4:
-        //             month = "Apr";
-        //             break;
-        //         case 5:
-        //             month = "May";
-        //             break;
-        //         case 6:
-        //             month = "Jun";
-        //             break;
-        //         case 7:
-        //             month = "Jul";
-        //         case 8:
-        //             month = "Aug";
-        //             break;
-        //         case 9:
-        //             month = "Sept";
-        //         case 10:
-        //             month = "Oct";
-        //             break;
-        //         case 11:
-        //             month = "Nov";
-        //         case 12: 
-        //             month = "Dec";
-        //     }
-        //     console.log(month);
-        //     return month;
-        // }
-
-
-
-        // function day(){
-        //     return new Date().getDay();
-        // }
-
-        // function year(){
-        //     return new Date().getFullYear();
-        // }
+    //     // function month(){
+    //     //     let mouth = ""
+    //     //     switch (new Date().getmonth()) {
+    //     //         case 1:
+    //     //             month = "Jan";
+    //     //             break;
+    //     //         case 2:
+    //     //             month = "Feb";
+    //     //             break;
+    //     //         case 3:
+    //     //             month = "Mar";
+    //     //             break;
+    //     //         case 4:
+    //     //             month = "Apr";
+    //     //             break;
+    //     //         case 5:
+    //     //             month = "May";
+    //     //             break;
+    //     //         case 6:
+    //     //             month = "Jun";
+    //     //             break;
+    //     //         case 7:
+    //     //             month = "Jul";
+    //     //         case 8:
+    //     //             month = "Aug";
+    //     //             break;
+    //     //         case 9:
+    //     //             month = "Sept";
+    //     //         case 10:
+    //     //             month = "Oct";
+    //     //             break;
+    //     //         case 11:
+    //     //             month = "Nov";
+    //     //         case 12: 
+    //     //             month = "Dec";
+    //     //     }
+    //     //     console.log(month);
+    //     //     return month;
+    //     // }
 
 
+
+    //     // function day(){
+    //     //     return new Date().getDay();
+    //     // }
+
+    //     // function year(){
+    //     //     return new Date().getFullYear();
+    //     // }
 
 
 
 
-    }
+
+
+    // }
 
 
     // for example --> Oct 18, 2015 08:30:57 PDT

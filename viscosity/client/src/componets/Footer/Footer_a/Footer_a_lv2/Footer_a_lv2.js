@@ -11,7 +11,7 @@ class Footer_a_lv2 extends Component {
                 </div>
 
                 <div className="social">
-                    <a href="#" className="support">Contact Us</a>
+                    <a href="" className="support">Contact Us</a>
                     <a href="https://www.facebook.com/" className="face">f</a>
                     <a href="https://www.twitter.com/" className="tweet">t</a>
                     <a href="https://www.Lindin.com/" className="linked">in</a>

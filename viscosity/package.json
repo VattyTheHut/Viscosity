@@ -30,7 +30,13 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "Server.js",
   "devDependencies": {
-    "nodemon": "^1.14.6"
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2105": "0.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "moment": "^2.21.0",
+    "nodemon": "^1.14.6",
+    "react-hotkey": "^0.7.0"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+
 import Footer_a_lv1 from './componets/Footer/Footer_a/Footer_a_lv1/Footer_a_lv1.js'
 import Footer_a_lv2 from './componets/Footer/Footer_a/Footer_a_lv2/Footer_a_lv2.js'
+import Footer_b_lv1 from './componets/Footer/Footer_b/Footer_b_lv1.js'
 // import Navbar_a_lv1 from './componets/Navbar/Navbar_a/Navbar_a_lv1/Navbar_a_lv1.js'
 // import Parallax_a from './componets/Parallax/Parallax_a/Parallax_a.js'
 // import Videoplug from './componets/Videoplug/Videoplug.js'
@@ -23,7 +26,7 @@ class App extends Component {
 
        <Parallax_a /> */}
 
-       <Contact_a />
+       <Footer_b_lv1 />
        
       {/* <Footer_a_lv2/> */}
           

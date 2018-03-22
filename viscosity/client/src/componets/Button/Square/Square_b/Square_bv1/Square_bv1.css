@@ -1,5 +1,27 @@
-.Square_bv1 button{
+.paypal{
     padding: 15px;
     background-color: #409BD9;
     border-radius: 5px;
 }
+
+.google{
+    padding: 15px;
+    background-color: #d62d20    ;
+    border-radius: 5px;
+}
+
+.twitter{
+    padding: 15px;
+    background-color: #00aced;
+    border-radius: 5px;
+}
+
+.facebook{
+    padding: 15px;
+    background-color: #3E5999;
+    border-radius: 5px;
+}
+
+
+
+
