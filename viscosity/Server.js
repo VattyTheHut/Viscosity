@@ -23,43 +23,43 @@
 
     // console.log(JSON.stringify(req.body))
 
-    let transporter = nodemailer.createTransport({
-        service: 'gmail',
-        secure: false,
-        port: 25,
-        auth:{
-            user: "corlonprime.v@gmail.com",
-            pass: 'Zelda64..'
-        },
-        tis: {
-            rejectUnauthorized: false,
-        },
-    });
+    // let transporter = nodemailer.createTransport({
+    //     service: 'gmail',
+    //     secure: false,
+    //     port: 25,
+    //     auth:{
+    //         user: " .v@ .com",
+    //         pass: ' ..'
+    //     },
+    //     tis: {
+    //         rejectUnauthorized: false,
+    //     },
+    // });
     
-    app.post('/postContact', (req, res, next) => {
-        console.log(JSON.stringify(req.body)) 
-        reqbody = {
-            name: req.body.name,
-            telephone: req.body.telephone,
-            email: req.body.email,
-            phone: req.body.phone,
-            messages: req.body.message
-        }
-       let HelperOptions = {
-            from: reqbody.email,
-            to: "corlonprime.v@gmail.com",
-            subject: "viscodity Engine Contact",
-            text: " bj"
-        }
+    // app.post('/postContact', (req, res, next) => {
+    //     console.log(JSON.stringify(req.body)) 
+    //     reqbody = {
+    //         name: req.body.name,
+    //         telephone: req.body.telephone,
+    //         email: req.body.email,
+    //         phone: req.body.phone,
+    //         messages: req.body.message
+    //     }
+    //    let HelperOptions = {
+    //         from: reqbody.email,
+    //         to: "corlonprime.v@gmail.com",
+    //         subject: "viscodity Engine Contact",
+    //         text: " bj"
+    //     }
     
-        transporter.sendMail(HelperOptions, (error, info) => {
-            if(error){
-                console.log(error)
-            }
-            console.log('the message was sent!');
-            console.log(info);  
-        })
-    });
+    //     transporter.sendMail(HelperOptions, (error, info) => {
+    //         if(error){
+    //             console.log(error)
+    //         }
+    //         console.log('the message was sent!');
+    //         console.log(info);  
+    //     })
+    // });
 
     
 

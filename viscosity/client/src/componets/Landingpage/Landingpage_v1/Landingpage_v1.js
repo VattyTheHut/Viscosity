@@ -7,7 +7,7 @@ class Landingpage_v1 extends Component {
       <div className="Landingpage_v1">
         <div className="Landingpage_v1">
             
-            <header id="V1showcase">
+            <div id="V1showcase">
                 <h1>Earl Sweatshirt</h1>
 
                 <p>Arguably one of the rap game's greatest prodigies and only at the tender age of 24 with
@@ -15,13 +15,8 @@ class Landingpage_v1 extends Component {
                 learn before he's ready to save anyone. But I believe Earl can save the world.
                 </p>                  
 
-                <a href="#" className="V1button">Read More</a>
-            </header>
-
-
-            <section>
-              <p>sndskdn skdnadnksmd akdmn dmosmr vf fmnbdoxkdvsn dksn v sdcv sncv s cjk kfnjv nkv nsdv j skn sdm</p>
-            </section>
+                <a href="" className="V1button">Read More</a>
+            </div>
 
         </div>
       </div>
