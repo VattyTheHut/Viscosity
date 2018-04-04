@@ -5,7 +5,8 @@ class Button extends Component {
 
   render() {
 
-    let getFas = fa => {
+
+    const getFas = fa => {
 
         let faSize = this.props.faSize || 'fa-sm' // if you want to chnage the size of the logo but keep a big button then 
                                                 // just add faSize to the your btn's props 
@@ -21,25 +22,56 @@ class Button extends Component {
          */}                                        
 
         let fas = {
+            // Socail media logos quick assign
             pp: `fab fa fa-paypal ${faSize}`,
             fb: `fab fa fa-facebook-f ${faSize}`,
             tw: `fab fa fa-twitter ${faSize}`,
             goog: `fab fa fa-google ${faSize}`,
-            em: `far fa fa-envelope ${faSize}`
+            em: `fab fa fa-envelope ${faSize}`,
+            git: `fab fa fa-github ${faSize}`,
+            li: `fab fa fa-linkedin-in ${faSize}`,
+            sc: `fab fa fa-soundcloud ${faSize}`,
+
+            // Tools 
+            plus: `far fa fa-plus ${faSize}`,
+            time: `far fa fa-times ${faSize}`,
+            bars: `fal fa fa-bars ${faSize}`,
+            ell : `fas fa fa-ellipsis-h ${faSize}`
         }
         return fas[fa];
     }
 
 
+    // to do simple animations:
+
+    {/* 
+    <i class="fa fa-link fa-rotate-45" style="font-size:1.5em"></i>
+
+    .fa-rotate-45 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+    
+    
+    */}
+
+    const buttonColor = {
+        color: this.props.color || this.props.colorBorder,
+    
+    }
+
     return (
         <div className="Button">
-            <button  className={ `${this.props.size}
-                                  ${this.props.length}
+            <button className={ `${this.props.size}
+                                  ${this.props.len}
                                   ${this.props.colorSolid}
                                   ${this.props.colorBorder}
                                   ${this.props.shape}` }>                 {/* Edit the code above so that the "key is placed as the value for the button type later on" */}
                 <i className={ getFas(this.props.fas) }></i>
-                {this.props.text}
+                <span style={buttonColor}>{this.props.text}</span>
             </button>
 
         </div>
@@ -55,7 +87,7 @@ class Button extends Component {
     for example the button below will create a nice round
     socal media button:
 
-    <Square_bv1 text="" 
+          <Button text="" 
                   color="fb-c"
                   fas="fb"
                   shape="round" 

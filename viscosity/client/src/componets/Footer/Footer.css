@@ -1,0 +1,187 @@
+
+.footer{
+  box-sizing: border-box;
+}
+
+/* the style for a st */
+
+.v1 {
+  position: relative;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 25px; 
+  background-color: #5587E1;
+  color: #efefef; 
+  clear: both;
+  display: block;
+  box-sizing: border-box;
+}
+
+.v1 input{
+  /* padding-left: 1%; */
+  width: 75vh;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  border-radius: 4px;
+  border: none;
+}
+
+
+.container div{
+  float: left;
+}
+
+.container{
+  margin-left: 30%;
+  display: block;
+  clear: both;
+
+}
+
+.v1test{
+  text-align: center;
+  line-height: 36px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 10px;
+  display: block;
+  clear: both;
+}
+
+.v1test2{
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 18px;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 10px;
+  display: block;
+  clear: both;
+}
+
+
+::-webkit-input-placeholder {
+  color: #000;
+  opacity: 1 !important; /* for older chrome versions. may no longer apply. */
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+  opacity: 1 !important;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #000;
+  opacity: 1 !important;
+}
+
+:-ms-input-placeholder {  
+ color: #000;
+}
+
+
+
+/* V2 CSS Below */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+/* Colors */
+/* * {
+  
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+} */
+
+.v2 {
+  font-family: Raleway, sans-serif;
+  background-color: #fff;
+  width: 100%;
+  /* display: inline-block; */
+  /* margin: 2em 0; */
+  height: 70px;
+  background-color: #999;
+}
+.v2 .copyright {
+  width: 50%;
+  float: left;
+}
+@media (max-width: 600px) {
+  footer .copyright {
+    width: 100%;
+  }
+}
+.v2 .copyright p {
+  padding-left: 10%;
+  color: white;
+  font-size: 0.7em;
+  line-height: 70px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+@media (max-width: 600px) {
+  .footer-b .copyright p {
+    text-align: center;
+    padding: 0;
+  }
+}
+.v2 .social {
+  width: 50%;
+  float: right;
+}
+@media (max-width: 600px) {
+  .footer-b .social {
+    width: 100%;
+  }
+}
+.v2 .social a {
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+.v2 .social a:hover {
+  background-color: #222;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+.v2 .linked {
+  background-color: #1E83AE;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.v2 .face {
+  background-color: #3D5B94;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.v2 .tweet {
+  background-color: #3DACDD;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.v2 .support {
+  background-color: #6dcd9a;
+  font-size: 0.8em;
+  width: 40%;
+}
+
+
+

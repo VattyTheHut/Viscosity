@@ -2,10 +2,19 @@
 /* colors of some SM sites */
 
 
+button{
+    background-color: inherit;
+}
+
+/* button:hover{
+    background-color: #3E5999;
+    color: #fff;
+} */
+
 .fb-c-s{background-color: #3E5999;}
 .goog-c-s{background-color: #d62d20;}
 .tw-c-s{background-color: #00aced;}
-.pp-c-s{background-color: #409BD9}
+.pp-c-s{background-color: black}
 
 
 .fb-c{border-color: #3E5999; border-width: 2px;}
@@ -15,9 +24,8 @@
 
 
 
-button:hover{
-    background-color: #3E5999;
-    color: #fff;
+.emailer{
+    padding: 10px;
 }
 
 
@@ -44,27 +52,27 @@ button:hover{
 
 
 .sh{
-    width: 30px;
+    width: 10px;
     font-size: 5px;
 }
 .l-md{
-    width: 80px;
+    width: 60px;
     font-size: 10px;
 }
 .tl{
-    width: 130px;
+    width: 110px;
     font-size: 15px;
 }
 /* size of buttons below */
 
 .sm{
-    height: 25px;
+    height: 20px;
 }
 .md{
-    height: 50px;
+    height: 40px;
 }
 .bg{
-    height: 100px;
+    height: 80px;
     
 }
 
