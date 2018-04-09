@@ -38,6 +38,8 @@ class Button extends Component {
             bars: `fal fa fa-bars ${faSize}`,
             ell : `fas fa fa-ellipsis-h ${faSize}`
         }
+
+        console.log('working in the fas')
         return fas[fa];
     }
 
@@ -60,6 +62,7 @@ class Button extends Component {
 
     const buttonColor = {
         color: this.props.color || this.props.colorBorder,
+        fontSize: this.props.fontSize
     
     }
 
@@ -71,7 +74,7 @@ class Button extends Component {
                                   ${this.props.colorBorder}
                                   ${this.props.shape}` }>                 {/* Edit the code above so that the "key is placed as the value for the button type later on" */}
                 <i className={ getFas(this.props.fas) }></i>
-                <span style={buttonColor}>{this.props.text}</span>
+                <span style={ buttonColor }>{this.props.text}</span>
             </button>
 
         </div>

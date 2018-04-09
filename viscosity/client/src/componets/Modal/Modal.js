@@ -63,21 +63,32 @@ class Modal extends Component {
               </div>
         </div>,
       
-      v3: <div>
+      v3: <div className="v3">
           <a href="#openModal">Open Modal</a>
             <div id="openModal" className="modalDialog">
               <div>
-                <a href="#close" className="close" title="Close"><Button text="" 
-                  color="fb-c"
-                  colorSolid="fb-c-s"
-                  fas="time"
-                  faSize= "fa-lg"
-                  shape="round" 
-                  length="sh" 
-                  size="sm"/></a>
-                <h2>Modal Box</h2>
-                <p>This is a sample modal box that can be created using the powers of CSS3.</p>
-                <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+              <a href="#close" className="close" title="Close">
+                <Button
+                    text="X"
+                    color="white"
+                    colorSolid="pp-c-s"
+                    colorBorder="pp-c"
+                    fas="time"
+                    fontSize="5vh"
+                    faSize="fa-5x"
+                    shape="square" 
+                    len="l-md" 
+                    size="md" />
+                </a>
+
+
+              <iframe 
+                  width="560" 
+                  height="315" 
+                  src="https://www.youtube.com/embed/wrxxfrzJY6k" 
+                  frameBorder="0" allow="autoplay; encrypted-media" 
+                  allowFullScreen>
+              </iframe>
               </div>
             </div>
           </div>
@@ -92,8 +103,8 @@ class Modal extends Component {
 
 
     return (
-      <div>
-        {getModal(this.props.modal)}
+      <div className="modal">
+        {getModal(this.props.modalType)}
       </div>
     );
   }
